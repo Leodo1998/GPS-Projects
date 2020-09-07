@@ -1,0 +1,47 @@
+﻿File name: ,traffic_fat.dta,,,
+Potential Use:,Project,,,
+Description:,US state-level panel with data on traffic fatalities and traffic-related legislation.,,,
+Variables: ,38,,,
+Individuals:,51,,,
+Observations: ," 1,530 ",,,
+Years:,1983-2012,,,
+,,,,
+order,varname,type,format,Description 
+1,state,str2,%9s,Two letter state Code
+2,name,str20,%20s,State Name
+3,year,float,%8.0g,Year 
+4,sbprim,float,%9.0g,Dummy variable equal to 1 if state has a primary enforcement seat belt law
+5,sbsec,float,%9.0g,Dummy variable equal to 1 if state has a secondary enforcement seat belt law
+6,bac08,byte,%8.0g,Dummy variable equal to 1 if state has a legal limit of BAC<0.08
+7,pbt,byte,%8.0g,Dummy variable equal to 1 if preliminary breath tests are permitted
+8,admin,byte,%8.0g,Dummy variable equal to 1 if state has administrative revocation laws
+9,txt,float,%9.0g,Dummy variable equal to 1 if state has a ban on texting while driving
+10,hha,float,%9.0g,Dummy variable equal to 1 if state has a ban on handheld devices for all drivers
+11,hhlearn,float,%9.0g,Dummy variable equal to 1 if state has a ban on handheld devices for learning drivers
+12,intlck1,float,%9.0g,Dummy variable equal to 1 if an ignition interlock is mandatory after conviction for the first DUI offense
+13,intlck15,float,%9.0g,Dummy variable equal to 1 if an ignition interlock is mandatory ONLY if BAC>=0.15 after conviction for the first offense
+14,intlck2,float,%9.0g,Dummy variable equal to 1 if an ignition interlock is mandatory after conviction for a repeat offense
+15,mlda21,byte,%9.0g,Dummy variable equal to 1 if the minimum drinking age is 21
+16,totpop,long,%8.0g,"Total Population, US Census estimates"
+17,avgage,float,%9.0g,Average Age
+18,pcinc,long,%8.0g,"Per capita personal income (dollars), Bureau of Economic Analysis"
+19,income,long,%8.0g,"Total personal income (thousands of dollars), Bureau of Economic Analysis"
+20,lim70,float,%9.0g,Dummy variable equal to 1 if the speed limit is 70 MPH or greater
+21,totfat,int,%8.0g,Total Traffic Fatalities
+22,occfat,int,%8.0g,Total occupant fatalities
+23,noccfat,float,%9.0g,Total nonoccupant fatalities
+24,milrur,long,%8.0g,Total length of rural roads (miles)
+25,milurb,long,%8.0g,Total length of urban roads (miles)
+26,vmtrur,double,%8.0g,"Total Vehicle Miles Travelled, rural"
+27,vmturb,long,%8.0g,"Total Vehicle Miles Travelled, urban"
+28,fueltax,float,%8.0g,"Fuel tax, cents per gallon (annnual average)"
+29,laborfrc2,float,%9.0g,"Total Labor force, Bureau of Labor Statistics"
+30,emp2,float,%9.0g,"Total employment, Bureau of Labor Statistics "
+31,unemp2,float,%9.0g,"Total unemployment, Bureau of Labor Statistics"
+32,unemprte,float,%9.0g,"Unemployment Rate, Bureau of Labor Statistics"
+33,vcrimetot,long,%8.0g,Number of violent crimes 
+34,pcrimetot,long,%8.0g,Number of property crimes
+35,vcrimerte,float,%8.0g,"Violent Crime rate (per 100,000 people)"
+36,pcrimerte,float,%8.0g,"Property crime rate (per 100,000 people)"
+37,rurdense,float ,%9.0g,Density of cars in rural roads (VMT / Total Length)
+38,urbdense,float,%9.0g,Density of cars in urban roads (VMT / Total Length)
