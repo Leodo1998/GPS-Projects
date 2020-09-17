@@ -18,11 +18,11 @@ save myhcbase.dta, replace
 log using "IAP_Project.smcl",replace
 
 
-*Leo theory 101
+*Theory 101
 
 *Factors to enhance firm performance?
 *	Human based capital?
-		//aka education and experience?
+		//such as education and experience?
 
 
 * ---------------- Get to Know Data ----------------
